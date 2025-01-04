@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import "../App.css";
-import TitleImg from "../assets/DALL·E 2025-01-03 16.26.15 - A 3D logo design featuring the letter 'T' with an aesthetic and visually pleasing style. The design should incorporate smooth gradients and a glossy f.webp";
+import TitleImg from "../assets/Logo.webp";
 import HamImg from "../assets/bars-solid.svg";
 import CloseImg from "../assets/x-solid.svg";
 
