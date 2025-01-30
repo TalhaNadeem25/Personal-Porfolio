@@ -7,8 +7,18 @@ const Projects = () => {
     { 
       title: "Stock Recording System Application",
       description: "Developed a Stock Recording System (SRS), an Android app using Kotlin that allows users to add stocks to their watchlist",
-      type: "Frontend Development",
+      type: "Andriod Mobile Application",
       codeLink: "https://github.com/TalhaNadeem25/My_Application"
+    },
+    {
+      title:"Pakistan Student Association (PSA) Website",
+      description: "Designed and developed a website for the Pakistan Student Association (PSA) at UTA using Node.js with TypeScript, MongoDB for database management, and deployed via Vercel for seamless hosting and performance.",
+      type: "Full Stack Development",
+    },
+    { 
+      title: "Shell Development Project ",
+      description: "Built a custom Unix shell in C with interactive/batch modes, supporting built-in commands (cd, exit, quit), error handling, and process control with fork() and execvp() for I/O redirection.",
+      type: "C Programming"
     },
     { 
       title: "Amazon Clone",
@@ -16,14 +26,9 @@ const Projects = () => {
       type: "Frontend Development"
     },
     { 
-      title: "Shell Development Project ",
-      description: "Built a custom Unix shell in C with interactive/batch modes, supporting built-in commands (cd, exit, quit), error handling, and process control with fork() and execvp() for I/O redirection.",
-      type: "Frontend Development"
-    },
-    { 
       title: "Multiplayer Battleship Game",
       description: "Developed a multiplayer Battleship game in Java for 2-4 players with ship placement, firing, real-time updates, turn management, error handling, and visual feedback.",
-      type: "Frontend Development"
+      type: "Java Programming",
     }
   ];
 
@@ -52,15 +57,6 @@ const Projects = () => {
                   <span className="project-type">{project.type}</span>
                   <h3 className="project-title">{project.title}</h3>
                   <p className="project-description">{project.description}</p>
-                </div>
-                
-                <div className="button-group">
-                  <button className="demo-button">Demo</button>
-                  {project.codeLink && (
-                    <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                      <button className="code-button">Code</button>
-                    </a>
-                  )}
                 </div>
               </div>
             </div>

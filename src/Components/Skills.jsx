@@ -3,10 +3,12 @@ import React from "react";
 import reactIcon from "../assets/1174949_js_react js_logo_react_react native_icon.png";
 import javaIcon from "../assets/4373217_java_logo_logos_icon.png";
 import cssIcon from "../assets/css-3.png";
+import database from "../assets/database-storage.png";
 import htmlIcon from "../assets/html-5.png";
 import androidIcon from "../assets/icons8-android-studio-240.png";
 import jsIcon from "../assets/js.png";
 import cIcon from "../assets/letter-c.png";
+import nodejs from "../assets/nodejs.png";
 
 const Skills = () => {
   const skills = [
@@ -17,7 +19,9 @@ const Skills = () => {
     { name: "C", image: cIcon, color: "#00599C" },
     { name: "Java", image: javaIcon, color: "#007396" },
     { name: "Android", image: androidIcon, color: "#3DDC84" },
-  ];
+    { name: "Node.js", image: nodejs, color: "#68A063" }, // Node.js official green
+    { name: "MongoDB", image: database, color: "#47A248" }, // MongoDB official green
+];
 
   return (
     <div className="skills-container" name="Skills">

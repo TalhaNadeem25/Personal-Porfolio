@@ -5,7 +5,7 @@ import GitHubIcon from "../assets/github.png";
 import EmailIcon from "../assets/gmail.png";
 import InstagramIcon from "../assets/instagram.png";
 import LinkedInIcon from "../assets/linkedin.png";
-import MainImg from "../assets/web-developer-illustration-2005x2048-fal2biag.png";
+import Talha from "../assets/Talha.jpg";
 
 
 const Hero = () => {
@@ -77,7 +77,7 @@ const Hero = () => {
           <div className="main-image-container">
             <div className="image-background"></div>
             <img
-              src={MainImg}
+              src={Talha}
               alt="Web Developer Illustration"
               className="main-image"
             />

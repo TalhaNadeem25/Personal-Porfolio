@@ -280,6 +280,7 @@ nav {
   object-fit: contain;
   position: relative;
   z-index: 1;
+  transform: rotate(-5deg);
 }
 
 /* Social Links Styles */
