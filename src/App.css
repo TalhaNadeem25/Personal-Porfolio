@@ -902,7 +902,7 @@ nav {
 
 @media (max-width: 1024px){
   .Pro-title-underline{
-    width: 35%;
+    width: 63%;
   }
 }
 
@@ -1122,6 +1122,7 @@ nav {
 @media (max-width: 768px) {
   .contact-container {
     padding: 4rem 1.5rem;
+    margin-top: 8rem;
   }
 
   .contact-title {

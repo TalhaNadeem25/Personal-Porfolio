@@ -202,10 +202,10 @@ const Projects = () => {
           }
 
           .project-card {
-            height: 330px;
+            height: 101vh;
           }
           .projects-container{
-          min-height: 150vh;}
+          min-height: 550vh;}
         }
       `}</style>
     </div>
